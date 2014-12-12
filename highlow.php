@@ -1,6 +1,6 @@
 <?php
 //Game picks a random number between 0 and 100
-$randNum = rand(0, 100);
+$randNum = mt_rand(0, 100);
 
 //Prompts user to guess the  number 
 do {
