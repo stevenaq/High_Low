@@ -3,7 +3,7 @@
 //need to check vartype on both
 //else do  the regular way with 0 and 100
 
-if ($argc == 3) {
+if (($argc == 3) && (is_numeric($argv[1])) && (is_numeric($argv[2]))) {
 	$randNum = mt_rand($argv[1], $argv[2]);
 }else {
 	//Game picks a random number between 0 and 100
