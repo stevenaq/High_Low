@@ -20,5 +20,6 @@ $userNum = fgets(STDIN);
 }while ($userNum != $randNum);
 //Guess correct
 fwrite(STDOUT, "YOU'RE A FUCKING GENIUS!\n");
- 
+
+exit(0); 
 ?>
